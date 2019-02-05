@@ -1,0 +1,39 @@
+body {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.cars_list {
+  margin-top: 20px;
+}
+
+.cars_list li {
+  background-color: #F5F5F5;
+  padding: 10px;
+}
+
+
+.cars_list li h3 {
+  width: 200px;
+  margin: 0;
+}
+
+h3[contenteditable="true"],
+p[contenteditable="true"] {
+  background-color: white !important;
+  display: table-row;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+}
+
+#editBtn {
+  margin-left: 10px;
+}
